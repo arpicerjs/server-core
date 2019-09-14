@@ -21,7 +21,7 @@ To starting your RPC server, you have to create a file that
 calling the listen method from this RPC framework. You can
 follow example below.
 
-```
+```js
 // importing the framework
 const rpc = require('@hamjs/rpc-server');
 
@@ -35,7 +35,7 @@ rpc.listen(8080, () => {
 Before a procedure called, you have to define it.
 To do this, see the example below.
 
-```
+```js
 rpc.def('sum', ({ a, b }) => {
   return a + b;
 });
