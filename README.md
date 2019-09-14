@@ -41,6 +41,26 @@ rpc.def('sum', ({ a, b }) => {
 });
 ```
 
+### Calling the Procedure
+To call a procedure, you have to install client library for this framework.
+You can see client provided list below.
+1. [NodeJS](https://github.com/hadihammurabi/hamjs-rpc-client-node)
+
+Or, you don't need to install any client, you can send HTTP request to the server
+with rules below.
+1. HTTP request to RPC server address (eg. http://localhost:8080)
+2. Using **POST** request method
+3. Put body like this:
+```json
+{
+  "call": "procedureName",
+  "parameters": {
+    "param1": "hello",
+    "param2": "HamJS RPC"
+  }
+}
+```
+
 ## Contributing
 I hope everyone will contribute to this project, but i am not sure :v
 
