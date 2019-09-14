@@ -1,0 +1,24 @@
+{
+  "name": "@hamjs/rpc-server",
+  "version": "0.0.1",
+  "description": "NodeJS Framework to Create RPC Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadihammurabi/hamjs-rpc-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "rpc",
+    "hamjs"
+  ],
+  "author": "Hadi Hidayat Hammurabi <hadihammurabi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hadihammurabi/hamjs-rpc-server/issues"
+  },
+  "homepage": "https://github.com/hadihammurabi/hamjs-rpc-server#readme"
+}
