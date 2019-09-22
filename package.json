@@ -1,6 +1,6 @@
 {
   "name": "@hamjs/rpc-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NodeJS Framework to Create RPC Server",
   "main": "index.js",
   "scripts": {
