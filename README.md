@@ -14,7 +14,7 @@ server framework for NodeJS.
 First, create your NodeJs project using `npm init` command.
 Then run command below inside that project.
 
-```npm i https://github.com/hadihammurabi/hamjs-rpc-server```
+```npm i @hamjs/rpc-server```
 
 ### Creating RPC Server
 To starting your RPC server, you have to create a file that
@@ -36,7 +36,7 @@ Before a procedure called, you have to define it.
 To do this, see the example below.
 
 ```js
-rpc.def('sum', ({ a, b }) => {
+rpc.def('sum', (a, b) => {
   return a + b;
 });
 ```
