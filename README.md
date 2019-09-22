@@ -54,10 +54,7 @@ with rules below.
 ```json
 {
   "call": "procedureName",
-  "parameters": {
-    "param1": "hello",
-    "param2": "HamJS RPC"
-  }
+  "parameters": [ 1, 2, 3, 4 ]
 }
 ```
 
