@@ -1,6 +1,11 @@
 # hamjs-rpc-server
 NodeJS Framework to Create RPC Server 
 
+RPC framework in general is a set of tools that enable the programmer to call a piece of code in a remote process, be it on a different machine or just another process on the same machine.
+
+For example, you may set up a server on a Linux machine, written in C++ which offers some service to the world through a JSON-based protocol over HTTP. This service may be called by a client program written in Python, running on a Windows machine. The code for both server and client is generated from a Thrift IDL file. To get it running, you basically have to add only the intended program logic and put all the pieces together.
+
+
 As you know about [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call),
 this is way to communicate between applications. Here, you got a very cool RPC
 server framework for NodeJS.
