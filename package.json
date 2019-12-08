@@ -1,5 +1,5 @@
 {
-  "name": "@ngasemjs/rpc-server",
+  "name": "@ngasemjs/server-core",
   "version": "0.0.31",
   "description": "NodeJS Framework to Create RPC Server",
   "main": "index.js",
