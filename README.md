@@ -1,4 +1,4 @@
-# hamjs-rpc-server
+# ngasemjs-server-core
 NodeJS Framework to Create RPC Server 
 
 As you know about [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call),
@@ -15,7 +15,7 @@ server framework for NodeJS.
 First, create your NodeJs project using `npm init` command.
 Then run command below inside that project.
 
-```npm i @hamjs/rpc-server```
+```npm i @ngasemjs/rpc-server```
 
 ### Creating RPC Server
 To starting your RPC server, you have to create a file that
@@ -24,7 +24,7 @@ follow example below.
 
 ```js
 // importing the framework
-const rpc = require('@hamjs/rpc-server');
+const rpc = require('@ngasemjs/rpc-server');
 
 // run RPC server on port 8080
 rpc.listen(8080, () => {
@@ -45,8 +45,8 @@ rpc.def('sum', (a, b) => {
 ### Calling the Procedure
 To call a procedure, you have to install client library for this framework.
 You can see client provided list below.
-1. [NodeJS](https://github.com/hadihammurabi/hamjs-rpc-client-node)
-2. [JavaScript](https://github.com/hadihammurabi/hamjs-rpc-client-js)
+1. [NodeJS](https://github.com/ngasemjs/client-nodejs)
+2. [JavaScript](https://github.com/ngasemjs/client-javascript)
 
 Or, you don't need to install any client, you can send HTTP request to the server
 with rules below.

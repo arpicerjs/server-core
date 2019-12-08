@@ -1,5 +1,5 @@
 {
-  "name": "@hamjs/rpc-server",
+  "name": "@ngasemjs/rpc-server",
   "version": "0.0.31",
   "description": "NodeJS Framework to Create RPC Server",
   "main": "index.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hadihammurabi/hamjs-rpc-server.git"
+    "url": "git+https://github.com/ngasemjs/server-core.git"
   },
   "keywords": [
     "nodejs",
     "rpc",
-    "hamjs"
+    "ngasemjs"
   ],
   "author": "Hadi Hidayat Hammurabi <hadihammurabi@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hadihammurabi/hamjs-rpc-server/issues"
+    "url": "https://github.com/ngasemjs/server-core/issues"
   },
-  "homepage": "https://github.com/hadihammurabi/hamjs-rpc-server#readme"
+  "homepage": "https://github.com/ngasemjs/server-core#readme"
 }
