@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/ngasemjs/server-core#readme",
   "dependencies": {
-    "@hamjs/http-server": "git+https://github.com/hadihammurabi/hamjs-http-server.git"
+    "@hamjs/http-server": "0.0.2"
   }
 }
